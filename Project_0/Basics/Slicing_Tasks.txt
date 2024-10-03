@@ -1,0 +1,24 @@
+Paragraph:
+Indian cuisine offers a rich and diverse array of vegetarian dishes, reflecting the country's cultural and regional variations. Staples like lentils, rice, and a variety of fresh vegetables form the foundation of many meals. Dishes such as dal (lentil stew), sabzi (vegetable curry), and roti (unleavened bread) are commonplace. Spices play a crucial role, with ingredients like turmeric, cumin, coriander, and garam masala imparting unique flavors. South Indian cuisine features dishes like dosa (fermented crepe), idli (steamed rice cakes), and sambar (spicy lentil soup). North Indian cuisine is famous for dishes like paneer tikka (grilled cheese), chole (chickpea curry), and aloo gobi (potato and cauliflower curry). Street foods such as samosas, bhel puri, and pav bhaji are popular across the country. Many Indian sweets, including gulab jamun, jalebi, and barfi, are also vegetarian. Each region offers its own specialties, ensuring a vast and exciting culinary landscape for vegetarians to explore.
+
+> Maggie Tasks:
+Extract the first sentence of the paragraph.
+Extract the last sentence of the paragraph.
+Extract the word "lentils" from the paragraph.
+Extract the first five words of the paragraph.
+Extract the last five words of the paragraph.
+Extract the phrase "South Indian cuisine features dishes like dosa".
+Extract all the words between "coriander" and "idli".
+Extract the name of three North Indian dishes.
+Extract the names of all South Indian dishes mentioned.
+Extract the name of the first street food mentioned.
+Extract the phrase "unique flavors" from the paragraph.
+Extract the names of all spices mentioned in the paragraph.
+Extract the phrase "Indian sweets, including gulab jamun, jalebi, and barfi".
+Extract the phrase "North Indian cuisine is famous for dishes".
+Extract the phrase "foundation of many meals".
+Extract the first mention of the word "curry".
+Extract the phrase "reflecting the country's cultural and regional variations".
+Extract the phrase "North Indian cuisine is famous for dishes like paneer tikka".
+Extract the phrase "spices play a crucial role".
+Extract the phrase "Each region offers its own specialties".
