@@ -22,3 +22,25 @@ Extract the phrase "reflecting the country's cultural and regional variations".
 Extract the phrase "North Indian cuisine is famous for dishes like paneer tikka".
 Extract the phrase "spices play a crucial role".
 Extract the phrase "Each region offers its own specialties".
+
+> 56-Bhog Tasks:
+Extract the first sentence without using the split method.
+Extract the last sentence without using the split method.
+Extract the phrase "rich and diverse" from the first sentence.
+Extract the phrase "lentil stew" without using the find method.
+Extract the word "lentils" in reverse order.
+Extract every second word in the paragraph.
+Extract the first word of each sentence in the paragraph.
+Extract the last word of each sentence in the paragraph.
+Extract the paragraph in reverse order.
+Extract every third character from the paragraph.
+Extract the first and last word of the paragraph.
+Extract all words containing the letter 'e'.
+Extract the paragraph without the first and last word.
+Extract all occurrences of the word "Indian" and reverse them.
+Extract the phrase "dal (lentil stew), sabzi (vegetable curry), and roti" without using the split or find method.
+Extract the names of dishes that contain the letter 'a'.
+Extract the first and last sentence, and join them into a new string.
+Extract the words "fresh vegetables form" and reverse the order of these words.
+Extract every word that starts with a consonant.
+Extract all the capital letters in the paragraph.
