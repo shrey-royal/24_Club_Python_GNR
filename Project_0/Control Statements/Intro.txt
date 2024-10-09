@@ -1,0 +1,53 @@
+Control Statements:
+
+1. Branching -> if-else, match-case
+-------------------------------------
+if condition:
+    //
+else:
+    //
+
+4 types of if else statement
+    -> if statement
+        if condition:
+            //statement
+
+    -> if else statement
+        if condition:
+            //statement
+        else:
+            //statement
+
+    -> ladder if statement
+        if condition:
+            //statement
+        elif condition:
+            //statement
+        elif condition:
+            //statement
+        else:   # default
+            //statement
+
+    -> nested if
+        if condition:
+            # nested if statement
+            if condition:
+                //statement
+            else:
+                //statement
+        else:
+            //statement
+
+2. Looping -> for, while
+-------------------------------------
+Loop: Entry-Controlled Loop
+
+1. for: fixed iteration
+syntax:
+    for iterator_var in iterable:
+        # body
+
+2. while: unfixed iteration
+syntax:
+    while condition:
+        # body
