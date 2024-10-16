@@ -30,4 +30,10 @@ syntax:
 
 ######################################################################
 
-# to be continued...
+choice = 1
+while choice != 0:
+    print("1. Tea\n2. Coffee\n3. Milkshake\n4. Lassi\n0. Exit")
+    choice = int(input("Enter your choice: "))
+    if 0 < choice <= 4: print("Good!")
+    elif choice == 0: continue
+    else: print("Invalid choice! Try Again")
