@@ -59,5 +59,39 @@ def function_name(argument/s):
 # Problem Statement: Create a function 'greet_user' that takes two parameters: 'name' (a string) and 'greeting' (a string). The greeting parameter should have a default value of "Hello". The function should print a message in the format: "greeting, name!". If no greeting is provided, it should use the default value.
 ######################################################################
 
-# keyword arguments
+# named parameters
 
+# def addition(a: int | float = 10, b: int | float = 5) -> int | float:
+#     return a + b
+
+# print(addition(23, 3))
+# print(addition(3))
+# print(addition(b=23))
+
+# def greet(name, greeting):
+#     print(f"{greeting}, {name}")
+
+# greet("Dharmik", "Hello")
+# greet(greeting="Hii", name="Dharmik")
+######################################################################
+
+# Recursive Function
+
+def factorial(num=0):
+    # base condition
+    if num == 0:
+        return 0
+    elif num == 1:
+        return 1
+
+    # recursion
+    return num * factorial(num - 1)
+
+print(factorial(5))
+
+"""
+Tasks:
+reverse_string(str) -> str
+sum_of_digits(num) -> int
+is_leap_year(year) -> bool
+"""
