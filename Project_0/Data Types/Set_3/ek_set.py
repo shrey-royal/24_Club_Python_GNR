@@ -35,7 +35,7 @@ dummy_set = {23, 45, 799, 34, 13}
 disjoint_set = {2, 3}
 new_set = {23, 45}
 
-print(mySet.difference(dummy_set))
+# print(mySet.difference(dummy_set))
 # print(mySet - dummy_set)
 
 # mySet.difference_update(dummy_set)
@@ -52,7 +52,7 @@ print(mySet.difference(dummy_set))
 # mySet.symmetric_difference_update(dummy_set)
 # print(mySet)
 
-# mySet.update((3, 89), [2, 3, 3, 4, 4, 232, 23, 78])
+# mySet.update((3, 89), [2, 3, 3, 4, 4, 232, 23, 78], {67}, {1554: 'one'})
 # print(mySet)
 
 # print({1, 2}.union({3, 4}))
