@@ -46,6 +46,58 @@ file operation modes:
 
 # ------------------------------------------------------------------
 
-with open('anime_dialogues.txt', encoding='utf-8') as f:
-    for line in f:
-        print(line.strip())
+# with open('anime_dialogues.txt', encoding='utf-8') as f:
+#     for line in f:
+#         print(line.strip())
+
+# ------------------------------------------------------------------
+# writing data into file
+# ------------------------------------------------------------------
+
+# lines = [
+#     "Students are learning python",
+#     "Smit has given his end semester exam",
+#     "Vishwa is attending online sessions"
+# ]
+
+# with open('32teeths.txt', 'w') as f:
+#     for line in lines:
+#         f.write(line)
+#         f.write('\n')
+
+# ------------------------------------------------------------------
+
+# with open('32teeths.txt', 'w') as f:
+#     # f.writelines(lines)
+#     f.write('\n'.join(lines))
+# ------------------------------------------------------------------
+
+# dialogue = "偶然だよ。それに裏が出ても、表が出るまで何度でも投げ続けようと思ってたから"
+
+# with open('anime.txt', 'w', encoding='utf-8') as f:
+#     f.write(dialogue)
+
+# ------------------------------------------------------------------
+
+# with open('docs/somefile.txt', 'x') as f:
+#     pass
+
+# f.close()
+# ------------------------------------------------------------------
+
+# check if file already exists
+# from os.path import exists
+
+# file_exists = exists('anime.txt')
+# print(file_exists)
+
+# import os.path
+# print(os.path.exists('anime.txt'))
+
+# from os.path import exists as file_exists
+# print(file_exists('docs/somefile.txt'))
+
+from pathlib import Path
+
+rasto = Path('anime.txt')
+print(rasto.is_file())
