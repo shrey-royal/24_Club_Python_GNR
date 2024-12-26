@@ -84,3 +84,60 @@ csv.reader() function has 2 main limitations.
 
 hence, we use DictReader class
 """
+
+# ------------------------------------------------------------------
+
+# DictReader Class
+
+# with open('bmi_data.csv', 'r') as f:
+#     csv_reader = csv.DictReader(f)
+
+#     next(csv_reader)    # to skip the header line
+
+#     for line in csv_reader:
+#         print(f"{line['name']} is {line['bmi_result']}")
+
+# ------------------------------------------------------------------
+
+# col_names = ['name', 'age', 'height', 'weight', 'bmi_value', 'bmi_result']
+
+# with open('bmi_data.csv', 'r') as f:
+#     csv_reader = csv.DictReader(f, col_names)
+
+#     next(csv_reader)
+
+#     for line in csv_reader:
+#         print(line)
+        # print(f"{line['name']} is {line['bmi_result']}")
+
+# ------------------------------------------------------------------
+
+# header = ['name', 'area', 'country_code2', 'country_code3']
+# data = [
+#     ['Albania', 28748, 'AL', 'ALB'],
+#     ['Algeria', 2381741, 'DZ', 'DZA'],
+#     ['American Samoa', 199, 'AS', 'ASM'],
+#     ['Andorra', 468, 'AD', 'AND'],
+#     ['Angola', 1246700, 'AO', 'AGO']
+# ]
+
+# with open('countries.csv', 'w', encoding='UTF8', newline='') as f:
+#     writer = csv.writer(f)
+
+#     writer.writerow(header)
+#     writer.writerows(data)
+
+# ------------------------------------------------------------------
+
+# renaming or deleting a file
+import os
+
+# os.rename(src, dst)
+print("Before")
+try:
+    # os.rename("countries.csv", "countries.txt")
+    os.remove("countries.txt")
+except (FileExistsError, FileNotFoundError) as e:
+    print(e)
+
+print("After")

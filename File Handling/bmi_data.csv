@@ -1,0 +1,31 @@
+name,age,height,weight,bmi_value,bmi_result
+Aarav,42,1.51,91.82,40.27,Obesity
+Ananya,36,1.68,72.27,25.61,Overweight
+Rohan,66,1.95,93.45,24.58,Normal weight
+Priya,34,1.6,83.13,32.47,Obesity
+Ishaan,54,1.97,81.89,21.1,Normal weight
+Kavya,36,1.86,85.56,24.73,Normal weight
+Aditya,34,1.8,69.8,21.54,Normal weight
+Meera,49,1.51,92.96,40.77,Obesity
+Karan,44,1.76,65.76,21.23,Normal weight
+Nandini,27,1.64,60.08,22.34,Normal weight
+Siddharth,24,1.51,69.03,30.27,Obesity
+Aditi,39,1.61,98.12,37.85,Obesity
+Arjun,32,1.86,68.55,19.81,Normal weight
+Rhea,29,1.77,64.76,20.67,Normal weight
+Veer,30,1.86,75.57,21.84,Normal weight
+Sneha,48,1.97,92.73,23.89,Normal weight
+Aryan,41,1.75,69.47,22.68,Normal weight
+Tara,32,1.91,71.76,19.67,Normal weight
+Vivaan,44,1.8,60.71,18.74,Normal weight
+Pooja,67,1.96,83.74,21.8,Normal weight
+Akash,28,1.66,52.54,19.07,Normal weight
+Neha,34,1.71,58.4,19.97,Normal weight
+Harsh,38,1.87,75.97,21.72,Normal weight
+Divya,46,1.89,73.03,20.44,Normal weight
+Rahul,35,1.95,79.41,20.88,Normal weight
+Shruti,28,1.65,66.08,24.27,Normal weight
+Sameer,66,1.68,68.83,24.39,Normal weight
+Payal,30,1.82,72.27,21.82,Normal weight
+Krish,63,1.74,94.09,31.08,Obesity
+Amrita,67,1.6,94.78,37.02,Obesity
